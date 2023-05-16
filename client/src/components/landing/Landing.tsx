@@ -1,14 +1,15 @@
 import { Button, Card, CardActions, CardMedia, Grid, Container } from "@mui/material";
 import video from "../../assets/video.mp4";
 import { Link } from "react-router-dom";
-import logo from "../../image/logo.png";
+//import logo from "../../image/logo.png";
+import { videoLanding } from "../../assets/imageTeam";
 
 export const Landing = () => {
   return (
     <>
       <Container sx={{}}>
         <br />
-        <img src={logo} alt="logo" width="250px" height="50px" />
+        <img src={videoLanding.url} alt="logo" width="250px" height="50px" />
         <Grid
           container
           sx={{

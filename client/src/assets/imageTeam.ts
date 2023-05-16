@@ -65,3 +65,7 @@ export const teamMembers = [
     path2: "https://www.linkedin.com",
   },
 ];
+
+export const videoLanding = {
+  url: "https://drive.google.com/file/d/1WwIikavACQSJDCjWctUVEowKWKUoFVna/view?usp=share_link",
+};
